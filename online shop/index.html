@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فروشگاه آنلاین شاپ</title>
+    <link rel="stylesheet" type="text/css" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./style/all.min.css">
+    <link rel="stylesheet" href="./style/owl.carousel.min.css">
+    <link rel="stylesheet" href="./style/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="./style/custom.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-between">
+                    <div class="navbar-right d-inline-flex">
+                        <a href="#">
+                            <img src="./images/Logo.png">
+                        </a>
+                        <ul class="nav align-items-center pe-1 d-lg-flex d-none">
+                            <li class="nav-item">
+                                <a class="nav-link line-hover active" aria-current="page" href="#">خانه</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link line-hover" href="#">فروشگاه</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link line-hover" href="#">دسته‌بندی‌ها</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link line-hover" href="#">درباره‌ما</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="navbar-left d-inline-flex">
+                        <ul class="nav align-items-center">
+                            <li class="nav-item d-sm-flex d-none">
+                                <a class="nav-link" href="#">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item d-sm-flex d-none">
+                                <a class="nav-link" href="#">
+                                    <i class="fa-solid fa-user"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item d-sm-flex d-none">
+                                <a class="nav-link" href="#">
+                                    <i class="fa-solid fa-heart"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item d-sm-flex d-none">
+                                <a class="nav-link" href="#">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item d-flex d-md-none">
+                                <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasExample" aria-controls="offcanvasExample">
+                                   <i class="fa-solid fa-bars"></i>
+                                </a>
+                            </li>
+                            
+                            <div class="offcanvas offcanvas-md offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">منوراهبری</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <ul class="nav flex-column pe-0">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="#">خانه</a>
+                                            <hr class="my-1">
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">فروشگاه</a>
+                                            <hr class="my-1">
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">دسته‌بندی‌ها</a>
+                                            <hr class="my-1">
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">درباره‌ما</a>
+                                            <hr class="my-1">
+                                        </li> 
+                                    </ul>
+                                    <ul class="nav align-items-center pe-0 p-2 d-flex d-sm-none">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">
+                                                <i class="fa-solid fa-magnifying-glass"></i>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">
+                                                <i class="fa-solid fa-user"></i>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- HEADER -->
+    <header class="position-relative">
+        <div class="socials d-xl-flex d-none">
+            <span>ما را دنبال کنید.</span>
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-11">
+                    <div class="carousel-wrapper">
+                        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                             <!-- -----1----- -->
+                              <div class="carousel-item active data-bs-interval="5000">
+                                <div class="slider-image-wrapper">
+                                    <div style="background-image: url(./images/slider1.jpg);"></div>
+                                </div>
+                                <div class="carousel-caption d-none d-md-block">
+                                  <span>جدید</span>  
+                                  <h5>محصولات‌جدید‌پاییز</h5>
+                                  <p>جدیدترین کارهای پاییز آماده ارسال می‌باشد.</p>
+                                  <a href="#" class="line-hover-active">محصولات بیشتر</a>
+                                </div>
+                              </div>
+                              <!-- ---- 2---- -->
+                              <div class="carousel-item data-bs-interval="5000"">
+                                <div class="slider-image-wrapper">
+                                    <div style="background-image: url(./images/slider3.jpg);"></div>
+                                </div>
+                                <div class="carousel-caption d-none d-md-block">
+                                  <span>جدید</span>  
+                                  <h5>محصولات‌جدید‌پاییز</h5>
+                                  <p>جدیدترین کارهای پاییز آماده ارسال می‌باشد.</p>
+                                  <a href="#" class="line-hover-active">محصولات بیشتر</a>
+                                </div>
+                              </div>
+                              <!------ 3------ -->
+                              <div class="carousel-item data-bs-interval="5000"">
+                                <div class="slider-image-wrapper">
+                                    <div style="background-image: url(./images/slider5.jpg);"></div>
+                                </div>
+                                <div class="carousel-caption d-none d-md-block">
+                                  <span>جدید</span>  
+                                  <h5>محصولات‌جدید‌پاییز</h5>
+                                  <p>جدیدترین کارهای پاییز آماده ارسال می‌باشد.</p>
+                                  <a href="#" class="line-hover-active">محصولات بیشتر</a>
+                                </div>
+                              </div>
+                            </div>
+
+                           
+                            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-info d-xl-flex d-none">
+            <span>اسکرول کنید</span>
+        </div>
+    </header>
+    <!-- CATEGORIES -->
+    <section id="categories">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-12">
+                    <div class="categories-right">
+                            <div class="overlay"></div>
+                            <div class="categories-right-img" style="background-image: url(./images/categories1.jpg);"></div>
+                            <div class="categories-right-text">
+                                <span>جدیدترین</span>
+                                <h3>کالکشن‌مردانه</h3>
+                                <a href="#" class="line-hover-active">خریدکنید</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-12">
+                    <div class="categories-left">
+                        <div class="categories-left-img" style="background-image: url(./images/categories3.jpg);"></div>
+                            <div class="categories-left-text">
+                                <span>جدیدترین</span>
+                                <h3>کالکشن‌زنانه</h3>
+                                <a href="#" class="line-hover-active">خریدکنید</a>
+                            </div>  
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="categories-left-bottom-right">
+                                <div class="categories-left-img" style="background-image: url(./images/categories2.jpg);"></div>
+                                <div class="categories-left-text">
+                                    <span>جدیدترین</span>
+                                    <h3>کالکشن‌زمستانه</h3>
+                                    <a href="#" class="line-hover-active">خریدکنید</a>
+                                </div>  
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="categories-left-bottom-left">
+                                <div class="categories-left-img" style="background-image: url(./images/categories4.jpg);"></div>
+                                <div class="categories-left-text">
+                                    <span>جدیدترین</span>
+                                    <h3>کالکشن‌زمستانه</h3>
+                                    <a href="#" class="line-hover-active">خریدکنید</a>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- PRODUCTS -->
+    <section id="products">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="text-center">محبوب‌ترین‌ محصولات</h3>
+                </div>
+                <div class="col-12">
+                    <ul class="list-inline text-center pe-0 mb-5">
+                        <li class="list-inline-item me-0 ms-2"><a href="#" class="line-hover-active">جدیدترین</a></li>
+                        <li class="list-inline-item me-0 ms-2"><a href="#" class="line-hover-active">محبوب‌ترین</a></li>
+                        <li class="list-inline-item"><a href="#" class="line-hover-active">پرفروش‌ترین</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <!-- FIRST PRODUCT CARD -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="product-card">
+                        <a href="#">
+                            <div class="product-card-image-wrapper">
+                                <div class="product-card-image" style="background-image: url(./images/person7.jpg);"></div>
+                            </div>
+                        </a>
+                        <div class="product-text mt-2">
+                            <div class="d-flex justify-content-between product-text-top">
+                                <a href="#">لباس‌ها</a>
+                                <i class="far fa-heart"></i>
+                            </div>
+                            <h6 class="mb-0">کت‌سفید‌زنانه</h6>
+                            <div class="product-card-price-off">
+                                <del>1,550,000</del>
+                                <span>1,200,000 تومان</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- SECOND PRODUCT CARD -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="product-card">
+                        <a href="#">
+                            <div class="product-card-image-wrapper">
+                                <div class="product-card-image" style="background-image: url(./images/person6.jpg);"></div>
+                            </div>
+                        </a>
+                        <div class="product-text mt-2">
+                            <div class="d-flex justify-content-between product-text-top">
+                                <a href="#">لباس‌ها</a>
+                                <i class="far fa-heart"></i>
+                            </div>
+                            <h6 class="mb-0">کت‌مشکی</h6>
+                            <span class="product-card-price">1,500,000 تومان</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- THIRD PRODUCT CARD -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="product-card">
+                        <a href="#">
+                            <div class="product-card-image-wrapper">
+                                <div class="product-card-image" style="background-image: url(./images/person8.jpg);"></div>
+                            </div>
+                        </a>
+                        <div class="product-text mt-2">
+                            <div class="d-flex justify-content-between product-text-top">
+                                <a href="#">لباس‌ها</a>
+                                <i class="far fa-heart"></i>
+                            </div>
+                            <h6 class="mb-0">کت‌بلند‌قرمز</h6>
+                            <span class="product-card-price">1,770,000  تومان</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- FOURTH PRODUCT CARD -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="product-card">
+                        <a href="#">
+                            <div class="product-card-image-wrapper">
+                                <div class="product-card-image" style="background-image: url(./images/person1.jpg);"></div>
+                            </div>
+                        </a>
+                        <div class="product-text mt-2">
+                            <div class="d-flex justify-content-between product-text-top">
+                                <a href="#">لباس‌ها</a>
+                                <i class="far fa-heart"></i>
+                            </div>
+                            <h6 class="mb-0">پیراهن‌آستین‌بلند‌مردانه</h6>
+                            <span class="product-card-price">450,000 تومان</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- FIFTH PRODUCT CARD -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="product-card">
+                        <a href="#">
+                            <div class="product-card-image-wrapper">
+                                <div class="product-card-image" style="background-image: url(./images/person5.jpg);"></div>
+                            </div>
+                        </a>
+                        <div class="product-text mt-2">
+                            <div class="d-flex justify-content-between product-text-top">
+                                <a href="#">لباس‌ها</a>
+                                <i class="far fa-heart"></i>
+                            </div>
+                            <h6 class="mb-0">کاپشن‌چرم louis vuitton</h6>
+                            <!-- <span class="product-card-price">1.500.000 تومان</span> -->
+                            <div class="product-card-price-off">
+                                <del>2,100,000</del>
+                                <span>1,995,000 تومان</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- SIXTH PRODUCT CARD -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="product-card">
+                        <a href="#">
+                            <div class="product-card-image-wrapper">
+                                <div class="product-card-image" style="background-image: url(./images/person9.jpg);"></div>
+                            </div>
+                        </a>
+                        <div class="product-text mt-2">
+                            <div class="d-flex justify-content-between product-text-top">
+                                <a href="#">لباس‌ها</a>
+                                <i class="far fa-heart"></i>
+                            </div>
+                            <h6 class="mb-0">کت‌بلندچرم‌طوسی</h6>
+                            <span class="product-card-price">1,785,000 تومان</span>
+                        </div>
+                    </div>
+                </div>
+                 <!-- SEVENTH PRODUCT CARD -->
+                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="product-card">
+                        <a href="#">
+                            <div class="product-card-image-wrapper">
+                                <div class="product-card-image" style="background-image: url(./images/person4.jpg);"></div>
+                            </div>
+                        </a>
+                        <div class="product-text mt-2">
+                            <div class="d-flex justify-content-between product-text-top">
+                                <a href="#">لباس‌ها</a>
+                                <i class="far fa-heart"></i>
+                            </div>
+                            <h6 class="mb-0">ست‌چرم‌زرد</h6>
+                            <span class="product-card-price">780,000 تومان</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- EIGHTH PRODUCT CARD -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="product-card">
+                        <a href="#">
+                            <div class="product-card-image-wrapper">
+                                <div class="product-card-image" style="background-image: url(./images/person11.jpg);"></div>
+                            </div>
+                        </a>
+                        <div class="product-text mt-2">
+                            <div class="d-flex justify-content-between product-text-top">
+                                <a href="#">لباس‌ها</a>
+                                <i class="far fa-heart"></i>
+                            </div>
+                            <h6 class="mb-0">ست‌کلاه‌وکت‌بلند‌مشکی</h6>
+                            <!-- <span class="product-card-price">1.500.000 تومان</span> -->
+                            <div class="product-card-price-off">
+                                <del>1,950,000</del>
+                                <span>1,500,000 تومان</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="see-more text-center">
+                        <a href="#" class="line-hover-active">مشاهده‌بیشتر</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- EVENT BOX -->
+    <section id="event-box">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-11">
+                    <div class="event-box-wrapper">
+                        <div></div>
+                        <div class="event-box-title">
+                            <span>جدید</span>  
+                            <h5>کالکشن‌بهاره</h5>
+                            <p>جدیدترین کارهای بهاری آماده ارسال می‌باشد.</p>
+                            <a href="#" class="line-hover-active">محصولات بیشتر</a>
+                        </div>
+                        <div class="countdown">
+                            <p class="timer">
+                              <span id="days" style="font-size: 20px;"></span>
+                              <span id="hours" style="font-size: 20px;"></span>
+                              <span id="minutes" style="font-size: 20px;"></span>
+                              <span id="seconds" style="font-size: 20px;"></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- MULTIPLE BOX  -->
+    <section id="multiplebox">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="banner-box">
+                        <div class="overlay"></div>
+                        <div class="banner-box-img" style="background-image: url(./images/bannerbox1.jpg);"></div>
+                        <div class="banner-box-text">
+                            <span>جدیدترین</span>
+                            <h3>کالکشن‌مردانه‌وزنانه</h3>
+                            <a href="#" class="line-hover-active">خرید‌کلاه‌مشکی</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="banner-box">
+                        <div class="overlay"></div>
+                        <div class="banner-box-img" style="background-image: url(./images/bannerbox2.jpg);"></div>
+                        <div class="banner-box-text">
+                            <span>محبوب‌ترین‌</span>
+                            <h3>کالکشن‌مردانه‌وزنانه</h3>
+                            <a href="#" class="line-hover-active">خرید‌کوله</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- SPECIAL -->
+    <section id="special">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="text-center">اکسسوری‌های ویژه</h3>
+                </div>
+                <div class="col-12">
+                    <div class="owl-carousel">
+                        <div class="product-card">
+                            <a href="#">
+                                <div class="product-card-image-wrapper">
+                                    <div class="product-card-image" style="background-image: url(./images/special1.jpg);"></div>
+                                </div>
+                            </a>
+                            <div class="product-text mt-2">
+                                <div class="d-flex justify-content-between product-text-top">
+                                    <a href="#">اکسسوری</a>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                                <h6 class="mb-0">انگشترنگینی</h6>
+                                <div class="product-card-price-off">
+                                    <del>350,0000</del>
+                                    <span>200,000 تومان</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <a href="#">
+                                <div class="product-card-image-wrapper">
+                                    <div class="product-card-image" style="background-image: url(./images/special2.jpg);"></div>
+                                </div>
+                            </a>
+                            <div class="product-text mt-2">
+                                <div class="d-flex justify-content-between product-text-top">
+                                    <a href="#">اکسسوری</a>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                                <h6 class="mb-0">گردنبندنگینی</h6>
+                                <span class="product-card-price">220,000 تومان</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <a href="#">
+                                <div class="product-card-image-wrapper">
+                                    <div class="product-card-image" style="background-image: url(./images/special3.jpg);"></div>
+                                </div>
+                            </a>
+                            <div class="product-text mt-2">
+                                <div class="d-flex justify-content-between product-text-top">
+                                    <a href="#">اکسسوری</a>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                                <h6 class="mb-0">ست‌گوشوارو‌انگشتر</h6>
+                                <span class="product-card-price">1,500,000 تومان</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <a href="#">
+                                <div class="product-card-image-wrapper">
+                                    <div class="product-card-image" style="background-image: url(./images/special4.jpg);"></div>
+                                </div>
+                            </a>
+                            <div class="product-text mt-2">
+                                <div class="d-flex justify-content-between product-text-top">
+                                    <a href="#">اکسسوری</a>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                                <h6 class="mb-0">دستبند</h6>
+                                <div class="product-card-price-off">
+                                    <del>1,100,000</del>
+                                    <span>820,000 تومان</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <a href="#">
+                                <div class="product-card-image-wrapper">
+                                    <div class="product-card-image" style="background-image: url(./images/special5.jpg);"></div>
+                                </div>
+                            </a>
+                            <div class="product-text mt-2">
+                                <div class="d-flex justify-content-between product-text-top">
+                                    <a href="#">اکسسوری</a>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                                <h6 class="mb-0">گردنبندپلاک‌قلبی</h6>
+                                <div class="product-card-price-off">
+                                    <del>580,000</del>
+                                    <span>320,000 تومان</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SOCIAL -->
+    <section id="social">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="text-center">مادراینستاگرام</h3>
+                </div>
+            </div>
+            <div class="row g-2">
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="social-image-wrapper">
+                        <div style="background-image: url(./images/insta1.jpg);"></div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="social-image-wrapper">
+                        <div style="background-image: url(./images/insta3.jpg);"></div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="social-image-wrapper">
+                        <div style="background-image: url(./images/insta4.jpg);"></div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="social-image-wrapper">
+                        <div style="background-image: url(./images/insta8.jpg);"></div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="social-image-wrapper">
+                        <div style="background-image: url(./images/insta6.jpg);"></div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="social-image-wrapper">
+                        <div style="background-image: url(./images/insta5.jpg);"></div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="social-image-wrapper">
+                        <div style="background-image: url(./images/insta4.jpg);"></div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="social-image-wrapper">
+                        <div style="background-image: url(./images/insta1.jpg);"></div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="social-image-wrapper">
+                        <div style="background-image: url(./images/insta3.jpg);"></div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="social-image-wrapper">
+                        <div style="background-image: url(./images/insta2.jpg);"></div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="social-image-wrapper">
+                        <div style="background-image: url(./images/insta6.jpg);"></div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="social-image-wrapper">
+                        <div style="background-image: url(./images/insta5.jpg);"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <!-- SERVICES -->
+    <section id="services">
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-md-4 col-12">
+                    <div class="service-box">
+                        <i class="fa fa-cab"></i>
+                        <h4>ارسال سریع</h4>
+                        <span>ارسال‌ سریع به‌ تمامی نقاط کشور</span>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="service-box">
+                        <i class="fa fa-phone"></i>
+                        <h4>پشتیبانی</h4>
+                        <span>پشتیبانی 24 ساعته توسط بهترین پشتیبان‌ها</span>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="service-box">
+                        <i class="fa fa-envelope"></i>
+                        <h4>اصل‌ بودن</h4>
+                        <span>ضمانت اصل بودن کالا برای مشتریان عزیز</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="about">
+                            <img src="./images/Logo.png" width="50px">
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                            <ul>
+                                <li><a href="#">example@gmail.com</a></li>
+                                <li><a href="#">+98 987 235 5645</a></li>
+                            </ul>
+                            <div>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1 order-2">
+                        <div class="row">
+                            <div class="col-4">
+                               <div class="footer-vertical-list">
+                                    <h5>کمپانی</h5>
+                                    <ul>
+                                        <li><a href="#">درباره‌ما</a></li>
+                                        <li><a href="#">تماس‌باما</a></li>
+                                        <li><a href="#">حرفه</a></li>
+                                        <li><a href="#">‌بلاگ</a></li>
+                                        <li><a href="#">دسته‌بندی‌ها</a></li>
+                                    </ul>
+                               </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="footer-vertical-list">
+                                    <h5>فروشگاه</h5>
+                                    <ul>
+                                        <li><a href="#">دسته‌بندی‌ها</a></li>
+                                        <li><a href="#" >اکسسوری‌ها</a></li>
+                                        <li><a href="#">مرد</a></li>
+                                        <li><a href="#">زن</a></li>
+                                        <li><a href="#">‌خرید</a></li>
+                                        <li><a href="#">جدیدترین</a></li>
+                                    </ul>
+                               </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="footer-vertical-list">
+                                    <h5>راهنمایی</h5>
+                                    <ul>
+                                        <li><a href="#">حساب‌کاربری‌من</a></li>
+                                        <li><a href="#">کارت‌هدیه</a></li>
+                                        <li><a href="#">قوانین</a></li>
+                                        <li><a href="#">سرویس‌های‌مشتری</a></li>
+                                        <li><a href="#">جدیدترین</a></li>
+                                    </ul>
+                               </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="col-lg-3 col-sm-6 order-lg-2 order-1">
+                        <div class="subscribe">
+                            <h5>جوین‌شدن</h5>
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم.</p>
+                            <div class="input-group input-group-sm">
+                                <input type="text" class="form-control" placeholder="ایمیل‌خودرا‌وارد‌کنید." aria-label="ایمیل‌خودراواردکنید." aria-describedby="button-addon2">
+                                <button class="btn btn-outline-secondary" type="button" id="button-addon2">ارسال</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                    <div class="col-12">
+                        <div class="divider"></div>
+                    </div>
+                <div class="row">
+                    <div class="col-4">
+                        <span>2023</span>
+                    </div>
+                    <div class="col-8">
+                        <div class="change-value d-flex justify-content-end">
+                            <span>واحدپول</span>
+                            <div class="btn-group dropup">
+                                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                  تومان
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li class="pe-2">تومان</li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li class="pe-2">ریال</li>
+                                </ul>
+                            </div>
+                            <span>زبان‌سایت</span>
+                            <div class="btn-group dropup">
+                                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                  فارسی
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li class="pe-2">فارسی</li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li class="pe-2">انگلیسی</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/timer.js"></script>
+    <script>
+          countdown('12/30/2023 03:14:07 AM');
+    </script>
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+                rtl:true,
+                loop:true,
+                dots:false,
+                margin:20,
+                responsiveClass:true,
+                responsive:{
+                    0:{
+                        items:1,
+                        nav:true,
+                        loop:true
+                    },
+                    700:{
+                        items:2,
+                        nav:true,
+                        loop:true
+                    },
+                    1000:{
+                        items:4,
+                        nav:true,
+                        loop:true
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
